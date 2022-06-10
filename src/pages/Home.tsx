@@ -16,7 +16,7 @@ const Home: React.FC = () => {
         <IonCard class="card">
 
           <IonCardTitle class="cardtitle">
-            Administrator Login
+             Login
           </IonCardTitle>
 
           <IonCardSubtitle  class="cardsubtitle">
