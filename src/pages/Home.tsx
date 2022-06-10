@@ -20,7 +20,7 @@ const Home: React.FC = () => {
           </IonCardTitle>
 
           <IonCardSubtitle  class="cardsubtitle">
-            Please enter your admin credentials to gain access
+            Please enter your admin credentials 
           </IonCardSubtitle>
           <br/>
 
