@@ -1,0 +1,91 @@
+:root {
+
+    --ion-color-purple: #6060dc;
+  
+    --ion-color-purple-rgb: 96,96,220;
+  
+    --ion-color-purple-contrast: #ffffff;
+  
+    --ion-color-purple-contrast-rgb: 255,255,255;
+  
+    --ion-color-purple-shade: #5454c2;
+  
+    --ion-color-purple-tint: #7070e0;
+  
+  }
+  
+  
+  
+  .ion-color-purple {
+  
+    --ion-color-base: var(--ion-color-purple);
+  
+    --ion-color-base-rgb: var(--ion-color-purple-rgb);
+  
+    --ion-color-contrast: var(--ion-color-purple-contrast);
+  
+    --ion-color-contrast-rgb: var(--ion-color-purple-contrast-rgb);
+  
+    --ion-color-shade: var(--ion-color-purple-shade);
+  
+    --ion-color-tint: var(--ion-color-purple-tint);
+  
+  }
+.img1{    
+
+ width:100%;
+    height: 100vh;
+    background-position: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+.card{
+
+    transition: all 0.25s ease;
+    width: 500px;
+    height: 50%;
+left: 35%;
+top:25%;
+    position: fixed;
+    border-radius: 30px;
+    /* 
+    right: 30%; */
+    /* transform: translate(-50%,-50%); */
+    text-align: center;  
+}
+
+.cardtitle{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+}
+.cardsubtitle{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+.mail{
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 400px;
+
+    /* margin-left: 20%; */
+justify-content: center;
+display: inline-block;
+
+}
+.pass{
+    border: 2px black solid;
+    border-radius: 7px;
+    width: 400px;
+    /* margin-left: 20%; */
+justify-content: center;
+display: inline-block;
+    margin-top: 20px;
+
+}
+
+  .loginbtn{
+
+    margin: 25px;
+  }
